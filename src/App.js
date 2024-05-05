@@ -1,34 +1,26 @@
-import Contact from './pages/Contact'
-import Project from './pages/Project'
-import './App.css'
-import Navbar from "./components/Navbar"
-import Home from './pages/Home'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import React from 'react';
+import { HashRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Navbar from "./components/Navbar";
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Project from './pages/Project';
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: '/intro',
-      element: <Home/>
-    },
-    {
-      path:'/intro/contact',
-      element: <Contact/>
-    },
-    {
-      path:'/intro/project',
-      element:<Project/>
-    }
-  ])
-
   return (
-    <>
+    <HashRouter>
       <div>
-       
-        <Navbar/>
-        <RouterProvider router={router}/>
-       </div>
-    </>
-  )
+        <Navbar />
+        
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/project" element={<Project />} />
+          </Routes>
+        
+      </div>
+    </HashRouter>
+  );
 }
-export default App
+
+export default App;
