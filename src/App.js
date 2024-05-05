@@ -8,15 +8,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/intro',
       element: <Home/>
     },
     {
-      path:'/contact',
+      path:'/intro/contact',
       element: <Contact/>
     },
     {
-      path:'/project',
+      path:'/intro/project',
       element:<Project/>
     }
   ])

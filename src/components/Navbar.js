@@ -2,14 +2,14 @@ const Navbar = () => {
     return (
       <>
         <nav className='nav'>
-          <a href="/" className='site-title'>Thomas Personal Page</a>
+          <a href="/intro" className='site-title'>Thomas Personal Page</a>
           <ul>
               <li>
               
-              <a href="/contact">Contact</a>
+              <a href="/intro/contact">Contact</a>
               </li>
               <li>
-                <a href="/project">Project</a>
+                <a href="/intro/project">Project</a>
               </li>
              
           </ul>
