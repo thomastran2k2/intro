@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/introduction/static/css/main.31d6cfe0.css",
+    "main.js": "/introduction/static/js/main.9bc0cc27.js",
+    "static/media/soccer-pics-1.jpeg": "/introduction/static/media/soccer-pics-1.a9cfe3ec1843923aab52.jpeg",
+    "static/media/soccer-image3.jpeg": "/introduction/static/media/soccer-image3.af41e05d94e413143371.jpeg",
+    "static/media/soccer-image2.jpeg": "/introduction/static/media/soccer-image2.2debf32a061d48bf90d8.jpeg",
+    "index.html": "/introduction/index.html",
+    "main.9bc0cc27.js.map": "/introduction/static/js/main.9bc0cc27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.9bc0cc27.js"
+  ]
+}
