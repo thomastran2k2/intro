@@ -6,7 +6,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Contact = () => {
     return (
-        <>
+    
        
         <div className="social-container">
         <h1>Contact me through</h1>
@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
         </div>
 
-        </>
+        
     )
 }
 
