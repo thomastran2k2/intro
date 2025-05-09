@@ -3,6 +3,7 @@ import Image2 from '../assets/soccer-image2.jpeg'
 import Image3 from '../assets/soccer-image3.jpeg'
 const Project = () => {
     return (
+        <>
         <div className="projects">
         <h1>Here are my projects</h1>
         <h2>Soccer Site</h2>
@@ -20,7 +21,12 @@ const Project = () => {
         <img className='image1' src={Image2} alt="second pics of the soccer app"/>
         <img className='image1' src={Image3} alt="third pics of the soccer app"/>
         </div>
-        
+
+        <div>
+            <h2>New stuff coming</h2>
+            <p>I'm currently working on a new project that will be released soon. Stay tuned for updates!</p>
+        </div> 
+        </>       
         
     )
 }
